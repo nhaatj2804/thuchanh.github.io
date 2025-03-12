@@ -611,13 +611,6 @@
         </button>
       </div>
 
-      <div class="success-message" id="success-message">
-        <h2>Cảm ơn bạn đã hoàn thành khảo sát!</h2>
-        <p>Thông tin và câu trả lời của bạn đã được ghi nhận.</p>
-        <button id="show-results" class="submit-survey">Xem kết quả</button>
-      </div>
-
-      <!-- Phần hiển thị kết quả -->
       <div class="results-container" id="results-container">
         <h2>Kết quả khảo sát</h2>
         
@@ -638,7 +631,6 @@
       document.addEventListener("DOMContentLoaded", function () {
         const personalInfoSection = document.getElementById("personal-info");
         const surveySection = document.getElementById("survey-section");
-        const successMessage = document.getElementById("success-message");
         const resultsContainer = document.getElementById("results-container");
         const submitInfoBtn = document.getElementById("submit-info");
         const submitSurveyBtn = document.getElementById("submit-survey");
@@ -706,14 +698,11 @@
 
         submitSurveyBtn.addEventListener("click", function () {
           surveySection.style.display = "none";
-          successMessage.style.display = "block";
-        });
-        
-        showResultsBtn.addEventListener("click", function() {
-          successMessage.style.display = "none";
           resultsContainer.style.display = "block";
           calculateResults();
         });
+        
+        
 
         function validatePersonalInfo() {
           let isValid = true;
