@@ -719,7 +719,7 @@
           if (idCard === "") {
             idCardError.textContent = "Vui lòng nhập số CCCD";
             isValid = false;
-          } else if (idCard.length < 12) {
+          } else if (idCard.length != 12) {
             idCardError.textContent = "CCCD phải có 12 chữ số";
             isValid = false;
           } else {
