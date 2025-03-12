@@ -39,12 +39,6 @@
         margin-bottom: 15px;
       }
 
-      label {
-        display: block;
-        margin-bottom: 5px;
-        font-weight: bold;
-      }
-
       button {
         background-color: #3498db;
         color: white;
@@ -83,15 +77,7 @@
         border-bottom: 1px solid #eee;
       }
 
-      .question:last-child {
-        border-bottom: none;
-      }
 
-      .options label {
-        display: block;
-        margin: 8px 0;
-        font-weight: normal;
-      }
 
       .options input[type="radio"],
       .options input[type="checkbox"] {
@@ -124,8 +110,8 @@
         padding: 20px;
         background-color: #d4edda;
         color: #155724;
-        border-radius: 5px;
-        margin-top: 20px;
+        border-radius: 6px;
+        margin-top: 30px;
         text-align: center;
       }
     </style>
@@ -173,64 +159,64 @@
           <div class="question">
             <p>1. Việt Nam có 63 tỉnh thành.</p>
             <div class="options">
-              <label><input type="radio" name="q1" value="true" /> Đúng</label>
-              <label><input type="radio" name="q1" value="false" /> Sai</label>
+              <input type="radio" name="q1" /> Đúng<br>
+              <input type="radio" name="q1" /> Sai
             </div>
           </div>
 
           <div class="question">
             <p>2. Hà Nội là thành phố lớn nhất Việt Nam.</p>
             <div class="options">
-              <label><input type="radio" name="q2" value="true" /> Đúng</label>
-              <label><input type="radio" name="q2" value="false" /> Sai</label>
+              <input type="radio" name="q2"/> Đúng<br>
+              <input type="radio" name="q2"/> Sai
             </div>
           </div>
 
           <div class="question">
             <p>3. Sông Mekong chảy qua Việt Nam.</p>
             <div class="options">
-              <label><input type="radio" name="q3" value="true" /> Đúng</label>
-              <label><input type="radio" name="q3" value="false" /> Sai</label>
+              <input type="radio" name="q3"/> Đúng<br>
+              <input type="radio" name="q3"/> Sai
             </div>
           </div>
 
           <div class="question">
             <p>4. Việt Nam có biên giới với Trung Quốc, Lào và Campuchia.</p>
             <div class="options">
-              <label><input type="radio" name="q4" value="true" /> Đúng</label>
-              <label><input type="radio" name="q4" value="false" /> Sai</label>
+              <input type="radio" name="q4" value="true" /> Đúng<br>
+              <input type="radio" name="q4" value="false" /> Sai
             </div>
           </div>
 
           <div class="question">
             <p>5. Đà Lạt nằm ở miền Trung Việt Nam.</p>
             <div class="options">
-              <label><input type="radio" name="q5" value="true" /> Đúng</label>
-              <label><input type="radio" name="q5" value="false" /> Sai</label>
+              <input type="radio" name="q5"  /> Đúng<br>
+              <input type="radio" name="q5"  /> Sai
             </div>
           </div>
 
           <div class="question">
             <p>6. Phở là món ăn truyền thống của Việt Nam.</p>
             <div class="options">
-              <label><input type="radio" name="q6" value="true" /> Đúng</label>
-              <label><input type="radio" name="q6" value="false" /> Sai</label>
+              <input type="radio" name="q6"  /> Đúng<br>
+              <input type="radio" name="q6"  /> Sai
             </div>
           </div>
 
           <div class="question">
             <p>7. Vịnh Hạ Long có hơn 1000 hòn đảo.</p>
             <div class="options">
-              <label><input type="radio" name="q7" value="true" /> Đúng</label>
-              <label><input type="radio" name="q7" value="false" /> Sai</label>
+              <input type="radio" name="q7" /> Đúng<br>
+              <input type="radio" name="q7"  /> Sai
             </div>
           </div>
 
           <div class="question">
             <p>8. Áo dài là trang phục truyền thống của nam giới Việt Nam.</p>
             <div class="options">
-              <label><input type="radio" name="q8" value="true" /> Đúng</label>
-              <label><input type="radio" name="q8" value="false" /> Sai</label>
+              <input type="radio" name="q8" /> Đúng<br>
+              <input type="radio" name="q8"  /> Sai
             </div>
           </div>
 
@@ -239,16 +225,16 @@
               9. Tết Nguyên Đán là ngày lễ quan trọng nhất trong năm ở Việt Nam.
             </p>
             <div class="options">
-              <label><input type="radio" name="q9" value="true" /> Đúng</label>
-              <label><input type="radio" name="q9" value="false" /> Sai</label>
+              <input type="radio" name="q9" /> Đúng<br>
+              <input type="radio" name="q9"  /> Sai
             </div>
           </div>
 
           <div class="question">
             <p>10. Đồng Việt Nam là đơn vị tiền tệ của Việt Nam.</p>
             <div class="options">
-              <label><input type="radio" name="q10" value="true" /> Đúng</label>
-              <label><input type="radio" name="q10" value="false" /> Sai</label>
+              <input type="radio" name="q10"  /> Đúng<br>
+              <input type="radio" name="q10"  /> Sai
             </div>
           </div>
         </div>
@@ -260,104 +246,71 @@
           <div class="question">
             <p>11. Thành phố nào là thủ đô của Việt Nam?</p>
             <div class="options">
-              <label
-                ><input type="radio" name="q11" value="a" /> Hồ Chí Minh</label
-              >
-              <label><input type="radio" name="q11" value="b" /> Hà Nội</label>
-              <label><input type="radio" name="q11" value="c" /> Đà Nẵng</label>
-              <label><input type="radio" name="q11" value="d" /> Huế</label>
+              <input type="radio" name="q11"/> Hồ Chí Minh<br>
+              <input type="radio" name="q11"  /> Hà Nội<br>
+              <input type="radio" name="q11"  /> Đà Nẵng<br>
+              <input type="radio" name="q11"  /> Huế
             </div>
           </div>
 
           <div class="question">
             <p>12. Việt Nam có bao nhiêu dân tộc?</p>
             <div class="options">
-              <label><input type="radio" name="q12" value="a" /> 34</label>
-              <label><input type="radio" name="q12" value="b" /> 45</label>
-              <label><input type="radio" name="q12" value="c" /> 54</label>
-              <label><input type="radio" name="q12" value="d" /> 64</label>
+              <input type="radio" name="q12"  /> 34<br>
+              <input type="radio" name="q12" /> 45<br>
+              <input type="radio" name="q12"  /> 54<br>
+              <input type="radio" name="q12"  /> 64
             </div>
           </div>
 
           <div class="question">
             <p>13. Đâu là con sông dài nhất chảy trong lãnh thổ Việt Nam?</p>
             <div class="options">
-              <label
-                ><input type="radio" name="q13" value="a" /> Sông Hồng</label
-              >
-              <label
-                ><input type="radio" name="q13" value="b" /> Sông Mekong</label
-              >
-              <label><input type="radio" name="q13" value="c" /> Sông Đà</label>
-              <label
-                ><input type="radio" name="q13" value="d" /> Sông Đồng
-                Nai</label
-              >
+              
+              <input type="radio" name="q13"  /> Sông Hồng<br>
+              <input type="radio" name="q13"  /> Sông Mekong<br>
+              <input type="radio" name="q13" /> Sông Đà<br>
+              <input type="radio" name="q13" /> Sông Đồng Nai
             </div>
           </div>
 
           <div class="question">
             <p>14. Đỉnh núi cao nhất Việt Nam là gì?</p>
             <div class="options">
-              <label
-                ><input type="radio" name="q14" value="a" /> Phan Xi Păng</label
-              >
-              <label
-                ><input type="radio" name="q14" value="b" /> Ngọc Linh</label
-              >
-              <label
-                ><input type="radio" name="q14" value="c" /> Pu Si Lung</label
-              >
-              <label><input type="radio" name="q14" value="d" /> Bà Đen</label>
+              <input type="radio" name="q14" /> Phan Xi Păng<br>
+              <input type="radio" name="q14" /> Ngọc Linh<br>
+              <input type="radio" name="q14" /> Pu Si Lung<br>
+              <input type="radio" name="q14"  /> Bà Đen
             </div>
           </div>
 
           <div class="question">
             <p>15. Việt Nam giành độc lập từ Pháp vào năm nào?</p>
             <div class="options">
-              <label><input type="radio" name="q15" value="a" /> 1930</label>
-              <label><input type="radio" name="q15" value="b" /> 1945</label>
-              <label><input type="radio" name="q15" value="c" /> 1954</label>
-              <label><input type="radio" name="q15" value="d" /> 1975</label>
+              <input type="radio" name="q15" /> 1930<br>
+              <input type="radio" name="q15"  /> 1945<br>
+              <input type="radio" name="q15"  /> 1954<br>
+              <input type="radio" name="q15" /> 1975
             </div>
           </div>
 
           <div class="question">
             <p>16. Di sản thiên nhiên thế giới đầu tiên của Việt Nam là gì?</p>
             <div class="options">
-              <label
-                ><input type="radio" name="q16" value="a" /> Phong Nha - Kẻ
-                Bàng</label
-              >
-              <label
-                ><input type="radio" name="q16" value="b" /> Vịnh Hạ Long</label
-              >
-              <label
-                ><input type="radio" name="q16" value="c" /> Phố cổ Hội
-                An</label
-              >
-              <label
-                ><input type="radio" name="q16" value="d" /> Thành nhà Hồ</label
-              >
+              <input type="radio" name="q16"  /> Phong Nha - Kẻ Bàng<br>
+              <input type="radio" name="q16"  /> Vịnh Hạ Long<br>
+              <input type="radio" name="q16"  /> Phố cổ Hội An<br>
+              <input type="radio" name="q16" /> Thành nhà Hồ<br>
             </div>
           </div>
 
           <div class="question">
             <p>17. Loại gạo nổi tiếng nhất của Việt Nam là gì?</p>
             <div class="options">
-              <label
-                ><input type="radio" name="q17" value="a" /> Gạo Tám Xoan</label
-              >
-              <label
-                ><input type="radio" name="q17" value="b" /> Gạo Nếp Cái Hoa
-                Vàng</label
-              >
-              <label
-                ><input type="radio" name="q17" value="c" /> Gạo ST25</label
-              >
-              <label
-                ><input type="radio" name="q17" value="d" /> Gạo Jasmine</label
-              >
+              <input type="radio" name="q17" /> Gạo Tám Xoan<br>
+              <input type="radio" name="q17" /> Gạo Nếp Cái Hoa Vàng<br>
+              <input type="radio" name="q17"  /> Gạo ST25<br>
+              <input type="radio" name="q17"  /> Gạo Jasmine
             </div>
           </div>
 
@@ -366,35 +319,20 @@
               18. Loại nhạc cụ nào là biểu tượng của âm nhạc dân tộc Việt Nam?
             </p>
             <div class="options">
-              <label
-                ><input type="radio" name="q18" value="a" /> Đàn tranh</label
-              >
-              <label><input type="radio" name="q18" value="b" /> Đàn bầu</label>
-              <label
-                ><input type="radio" name="q18" value="c" /> Đàn nguyệt</label
-              >
-              <label
-                ><input type="radio" name="q18" value="d" /> Sáo trúc</label
-              >
+              <input type="radio" name="q18"  /> Đàn tranh<br>
+              <input type="radio" name="q18"  /> Đàn bầu<br>
+              <input type="radio" name="q18" /> Đàn nguyệt<br>
+              <input type="radio" name="q18" /> Sáo trúc
             </div>
           </div>
 
           <div class="question">
             <p>19. Đâu là loại cà phê đặc trưng của Việt Nam?</p>
             <div class="options">
-              <label
-                ><input type="radio" name="q19" value="a" /> Cà phê phin</label
-              >
-              <label
-                ><input type="radio" name="q19" value="b" /> Cà phê trứng</label
-              >
-              <label
-                ><input type="radio" name="q19" value="c" /> Cà phê sữa
-                đá</label
-              >
-              <label
-                ><input type="radio" name="q19" value="d" /> Cà phê dừa</label
-              >
+              <input type="radio" name="q19"  /> Cà phê phin<br>
+              <input type="radio" name="q19"  /> Cà phê trứng<br>
+              <input type="radio" name="q19" /> Cà phê sữa đá<br>
+              <input type="radio" name="q19" /> Cà phê dừa
             </div>
           </div>
 
@@ -404,10 +342,10 @@
               công nhận?
             </p>
             <div class="options">
-              <label><input type="radio" name="q20" value="a" /> 5</label>
-              <label><input type="radio" name="q20" value="b" /> 8</label>
-              <label><input type="radio" name="q20" value="c" /> 12</label>
-              <label><input type="radio" name="q20" value="d" /> 15</label>
+              <input type="radio" name="q20"  /> 5<br>
+              <input type="radio" name="q20"  /> 8<br>
+              <input type="radio" name="q20" /> 12<br>
+              <input type="radio" name="q20" /> 15
             </div>
           </div>
         </div>
@@ -419,57 +357,30 @@
           <div class="question">
             <p>21. Đâu là các món ăn truyền thống của Việt Nam?</p>
             <div class="options">
-              <label><input type="checkbox" name="q21" value="a" /> Phở</label>
-              <label
-                ><input type="checkbox" name="q21" value="b" /> Bánh mì</label
-              >
-              <label
-                ><input type="checkbox" name="q21" value="c" /> Bún chả</label
-              >
-              <label
-                ><input type="checkbox" name="q21" value="d" /> Sushi</label
-              >
+              <input type="checkbox" name="q21" /> Phở<br>
+              <input type="checkbox" name="q21" /> Bánh mì<br>
+              <input type="checkbox" name="q21"  /> Bún chả<br>
+              <input type="checkbox" name="q21"  /> Sushi
             </div>
           </div>
 
           <div class="question">
             <p>22. Những tỉnh nào thuộc miền Bắc Việt Nam?</p>
             <div class="options">
-              <label
-                ><input type="checkbox" name="q22" value="a" /> Hà Nội</label
-              >
-              <label
-                ><input type="checkbox" name="q22" value="b" /> Hải Phòng</label
-              >
-              <label
-                ><input type="checkbox" name="q22" value="c" /> Đà Nẵng</label
-              >
-              <label
-                ><input type="checkbox" name="q22" value="d" /> Quảng
-                Ninh</label
-              >
+              <input type="checkbox" name="q22"  /> Hà Nội<br>
+              <input type="checkbox" name="q22"  /> Hải Phòng<br>
+              <input type="checkbox" name="q22"  /> Đà Nẵng<br>
+              <input type="checkbox" name="q22" /> Quảng Ninh<br>
             </div>
           </div>
 
           <div class="question">
             <p>23. Những danh lam thắng cảnh nào thuộc Việt Nam?</p>
             <div class="options">
-              <label
-                ><input type="checkbox" name="q23" value="a" /> Vịnh Hạ
-                Long</label
-              >
-              <label
-                ><input type="checkbox" name="q23" value="b" /> Động Phong
-                Nha</label
-              >
-              <label
-                ><input type="checkbox" name="q23" value="c" /> Angkor
-                Wat</label
-              >
-              <label
-                ><input type="checkbox" name="q23" value="d" /> Phố cổ Hội
-                An</label
-              >
+              <input type="checkbox" name="q23"  /> Vịnh Hạ Long<br>
+              <input type="checkbox" name="q23"  /> Động Phong Nha<br>
+              <input type="checkbox" name="q23"  /> Angkor Wat<br>
+              <input type="checkbox" name="q23"  /> Phố cổ Hội An
             </div>
           </div>
 
@@ -478,135 +389,70 @@
               24. Đâu là những loại hình nghệ thuật truyền thống của Việt Nam?
             </p>
             <div class="options">
-              <label
-                ><input type="checkbox" name="q24" value="a" /> Múa rối
-                nước</label
-              >
-              <label
-                ><input type="checkbox" name="q24" value="b" /> Hát chèo</label
-              >
-              <label
-                ><input type="checkbox" name="q24" value="c" /> Hát tuồng</label
-              >
-              <label
-                ><input type="checkbox" name="q24" value="d" /> Ballet</label
-              >
+              <input type="checkbox" name="q24"  /> Múa rối nước<br>
+              <input type="checkbox" name="q24"  /> Hát chèo<br>
+              <input type="checkbox" name="q24"  /> Hát tuồng<br>
+              <input type="checkbox" name="q24"  /> Ballet
             </div>
           </div>
 
           <div class="question">
             <p>25. Những loại cây nào thường được trồng ở Việt Nam?</p>
             <div class="options">
-              <label
-                ><input type="checkbox" name="q25" value="a" /> Cây lúa</label
-              >
-              <label
-                ><input type="checkbox" name="q25" value="b" /> Cây cà
-                phê</label
-              >
-              <label
-                ><input type="checkbox" name="q25" value="c" /> Cây cao
-                su</label
-              >
-              <label
-                ><input type="checkbox" name="q25" value="d" /> Cây ô liu</label
-              >
+              <input type="checkbox" name="q25"  /> Cây lúa<br>
+              <input type="checkbox" name="q25" /> Cây cà phê<br>
+              <input type="checkbox" name="q25"  /> Cây cao su<br>
+              <input type="checkbox" name="q25"  /> Cây ô liu
             </div>
           </div>
 
           <div class="question">
             <p>26. Những sự kiện lịch sử nào sau đây diễn ra tại Việt Nam?</p>
             <div class="options">
-              <label
-                ><input type="checkbox" name="q26" value="a" /> Chiến thắng Điện
-                Biên Phủ</label
-              >
-              <label
-                ><input type="checkbox" name="q26" value="b" /> Hội nghị
-                Genève</label
-              >
-              <label
-                ><input type="checkbox" name="q26" value="c" /> Chiến tranh Đông
-                Dương</label
-              >
-              <label
-                ><input type="checkbox" name="q26" value="d" /> Cách mạng
-                Pháp</label
-              >
+              <input type="checkbox" name="q26"  /> Chiến thắng Điện Biên Phủ<br>
+              <input type="checkbox" name="q26" /> Hội nghị Genève<br>
+              <input type="checkbox" name="q26" /> Chiến tranh Đông Dương<br>
+              <input type="checkbox" name="q26"/> Cách mạng Pháp
             </div>
           </div>
 
           <div class="question">
             <p>27. Những ngày lễ nào sau đây được tổ chức ở Việt Nam?</p>
             <div class="options">
-              <label
-                ><input type="checkbox" name="q27" value="a" /> Tết Nguyên
-                Đán</label
-              >
-              <label
-                ><input type="checkbox" name="q27" value="b" /> Tết Trung
-                Thu</label
-              >
-              <label
-                ><input type="checkbox" name="q27" value="c" /> Lễ Giáng
-                Sinh</label
-              >
-              <label
-                ><input type="checkbox" name="q27" value="d" /> Tết Thanh
-                Minh</label
-              >
+              <input type="checkbox" name="q27" /> Tết Nguyên Đán<br>
+              <input type="checkbox" name="q27" /> Tết Trung Thu<br>
+              <input type="checkbox" name="q27"  /> Lễ Giáng Sinh<br>
+              <input type="checkbox" name="q27"  /> Tết Thanh Minh<br>
             </div>
           </div>
 
           <div class="question">
             <p>28. Những loại trái cây nào được trồng phổ biến ở Việt Nam?</p>
             <div class="options">
-              <label><input type="checkbox" name="q28" value="a" /> Vải</label>
-              <label><input type="checkbox" name="q28" value="b" /> Xoài</label>
-              <label
-                ><input type="checkbox" name="q28" value="c" /> Thanh
-                long</label
-              >
-              <label><input type="checkbox" name="q28" value="d" /> Kiwi</label>
+              <input type="checkbox" name="q28"  /> Vải<br>
+              <input type="checkbox" name="q28"  /> Xoài<br>
+              <input type="checkbox" name="q28"  /> Thanh long<br>
+              <input type="checkbox" name="q28"  /> Kiwi
             </div>
           </div>
 
           <div class="question">
             <p>29. Những di sản thế giới nào của UNESCO nằm ở Việt Nam?</p>
             <div class="options">
-              <label
-                ><input type="checkbox" name="q29" value="a" /> Vịnh Hạ
-                Long</label
-              >
-              <label
-                ><input type="checkbox" name="q29" value="b" /> Phố cổ Hội
-                An</label
-              >
-              <label
-                ><input type="checkbox" name="q29" value="c" /> Thành nhà
-                Hồ</label
-              >
-              <label
-                ><input type="checkbox" name="q29" value="d" /> Vạn Lý Trường
-                Thành</label
-              >
+              <input type="checkbox" name="q29" /> Vịnh Hạ Long<br>
+              <input type="checkbox" name="q29"  /> Phố cổ Hội An<br>
+              <input type="checkbox" name="q29"  /> Thành nhà Hồ<br>
+              <input type="checkbox" name="q29" /> Vạn Lý Trường Thành<br>
             </div>
           </div>
 
           <div class="question">
             <p>30. Những món đồ uống nào phổ biến ở Việt Nam?</p>
             <div class="options">
-              <label
-                ><input type="checkbox" name="q30" value="a" /> Cà phê sữa
-                đá</label
-              >
-              <label
-                ><input type="checkbox" name="q30" value="b" /> Trà đá</label
-              >
-              <label
-                ><input type="checkbox" name="q30" value="c" /> Nước mía</label
-              >
-              <label><input type="checkbox" name="q30" value="d" /> Bia</label>
+              <input type="checkbox" name="q30"  /> Cà phê sữa đá<br>
+              <input type="checkbox" name="q30"  /> Trà đá<br>
+              <input type="checkbox" name="q30"  /> Nước mía<br>
+              <input type="checkbox" name="q30"  /> Bia
             </div>
           </div>
         </div>
@@ -621,7 +467,7 @@
               Nam?
             </p>
             <div class="options">
-              <input name="q31" rows="3" />
+              <input name="q31"/>
             </div>
           </div>
 
@@ -631,7 +477,7 @@
               tượng nhất.
             </p>
             <div class="options">
-              <in\ name="q32" rows="3" />
+              <in\ name="q32"/>
             </div>
           </div>
 
@@ -641,7 +487,7 @@
               trong tương lai?
             </p>
             <div class="options">
-              <input name="q33" rows="3" />
+              <input name="q33"  />
             </div>
           </div>
 
@@ -650,7 +496,7 @@
               34. Hãy mô tả về một lễ hội truyền thống Việt Nam mà bạn biết.
             </p>
             <div class="options">
-              <input name="q34" rows="3" />
+              <input name="q34"  />
             </div>
           </div>
 
@@ -660,14 +506,14 @@
               truyền thống?
             </p>
             <div class="options">
-              <input name="q35" rows="3" />
+              <input name="q35"  />
             </div>
           </div>
 
           <div class="question">
             <p>36. Hãy chia sẻ ý kiến của bạn về ẩm thực Việt Nam.</p>
             <div class="options">
-              <input name="q36" rows="3" />
+              <input name="q36"  />
             </div>
           </div>
 
@@ -677,7 +523,7 @@
               lý do.
             </p>
             <div class="options">
-              <input name="q37" rows="3" />
+              <input name="q37" />
             </div>
           </div>
 
@@ -687,7 +533,7 @@
               thách thức gì?
             </p>
             <div class="options">
-              <input name="q38" rows="3" />
+              <input name="q38"  />
             </div>
           </div>
 
@@ -696,7 +542,7 @@
               39. Hãy chia sẻ về một nhân vật lịch sử Việt Nam mà bạn ngưỡng mộ.
             </p>
             <div class="options">
-              <input name="q39" rows="3" />
+              <input name="q39" />
             </div>
           </div>
 
@@ -706,7 +552,7 @@
               thời đại công nghệ 4.0?
             </p>
             <div class="options">
-              <input name="q40" rows="3" />
+              <input name="q40"  />
             </div>
           </div>
         </div>
@@ -729,29 +575,22 @@
         const successMessage = document.getElementById("success-message");
         const submitInfoBtn = document.getElementById("submit-info");
         const submitSurveyBtn = document.getElementById("submit-survey");
-        personalInfoSection.style.display = "none";
-        surveySection.style.display = "block";
-        // Xử lý sự kiện khi nhấn nút "Tiếp tục"
+        
         submitInfoBtn.addEventListener("click", function () {
           if (validatePersonalInfo()) {
             personalInfoSection.style.display = "none";
             surveySection.style.display = "block";
-            window.scrollTo(0, 0);
           }
         });
 
-        // Xử lý sự kiện khi nhấn nút "Hoàn thành khảo sát"
         submitSurveyBtn.addEventListener("click", function () {
           surveySection.style.display = "none";
           successMessage.style.display = "block";
-          window.scrollTo(0, 0);
         });
 
-        // Hàm kiểm tra thông tin cá nhân
         function validatePersonalInfo() {
           let isValid = true;
 
-          // Kiểm tra họ tên
           const fullname = document.getElementById("fullname").value.trim();
           const fullnameError = document.getElementById("fullname-error");
           if (fullname === "") {
@@ -761,7 +600,6 @@
             fullnameError.textContent = "";
           }
 
-          // Kiểm tra ngày sinh
           const birthdate = document.getElementById("birthdate").value.trim();
           const birthdateError = document.getElementById("birthdate-error");
           if (birthdate === "") {
@@ -771,20 +609,18 @@
             birthdateError.textContent = "";
           }
 
-          // Kiểm tra CCCD
           const idCard = document.getElementById("id-card").value.trim();
           const idCardError = document.getElementById("id-card-error");
           if (idCard === "") {
             idCardError.textContent = "Vui lòng nhập số CCCD";
             isValid = false;
-          } else if (!/^\d{12}$/.test(idCard)) {
+          } else if (idCard.length<12) {
             idCardError.textContent = "CCCD phải có 12 chữ số";
             isValid = false;
           } else {
             idCardError.textContent = "";
           }
 
-          // Kiểm tra địa chỉ
           const address = document.getElementById("address").value.trim();
           const addressError = document.getElementById("address-error");
           if (address === "") {
@@ -796,6 +632,7 @@
 
           return isValid;
         }
+        
       });
     </script>
   </body>
